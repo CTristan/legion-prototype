@@ -1,6 +1,6 @@
 namespace CityOfGuilds.Legion.Repository.Requests;
 
-public class PlayerItemDropChanceRequest
+public sealed class CharacterItemBadLuckHistoryRequest
 {
     public string ConnectionString { get; set; }
     public int PlayerId { get; set; }

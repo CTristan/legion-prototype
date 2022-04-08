@@ -3,7 +3,7 @@ using CityOfGuilds.Legion.Repository.Responses;
 
 namespace CityOfGuilds.Legion.Repository.Interfaces;
 
-public interface IPlayerItemDropChanceRepository
+public interface ICharacterItemBadLuckRepository
 {
-    PlayerItemDropChanceResponse GetPlayerItemDropChance(PlayerItemDropChanceRequest request);
+    CharacterItemBadLuckHistoryResponse GetBadLuckHistory(CharacterItemBadLuckHistoryRequest request);
 }

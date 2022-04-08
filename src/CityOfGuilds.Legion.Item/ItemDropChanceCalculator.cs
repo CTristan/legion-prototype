@@ -10,6 +10,8 @@ public sealed class ItemDropChanceCalculator : IItemDropChanceCalculator
     {
         var response = new ItemDropChanceResponse { Item = request.Item };
 
+        response.DropChance = 0.00f;
+
         return response;
     }
 }

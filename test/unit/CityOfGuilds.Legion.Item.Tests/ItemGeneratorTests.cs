@@ -27,8 +27,9 @@ public sealed class ItemGeneratorTests
     private static IItemGenerator GetGenerator()
     {
         var itemDropChanceCalculator = Substitute.For<IItemDropChanceCalculator>();
+        var badLuckProtectionUpdater = Substitute.For<IBadLuckProtectionUpdater>();
 
-        return new ItemGenerator(itemDropChanceCalculator);
+        return new ItemGenerator(itemDropChanceCalculator, badLuckProtectionUpdater);
     }
 
     #endregion

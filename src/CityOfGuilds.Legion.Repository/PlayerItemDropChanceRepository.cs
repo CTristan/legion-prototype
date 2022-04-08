@@ -4,11 +4,11 @@ using CityOfGuilds.Legion.Repository.Responses;
 
 namespace CityOfGuilds.Legion.Repository;
 
-public sealed class PlayerItemDropChanceRepository : IPlayerItemDropChanceRepository
+public sealed class PlayerItemDropChanceRepository : ICharacterItemBadLuckRepository
 {
-    public PlayerItemDropChanceResponse GetPlayerItemDropChance(PlayerItemDropChanceRequest request)
+    public CharacterItemBadLuckHistoryResponse GetBadLuckHistory(CharacterItemBadLuckHistoryRequest request)
     {
-        var response = new PlayerItemDropChanceResponse();
+        var response = new CharacterItemBadLuckHistoryResponse();
 
         return response;
     }

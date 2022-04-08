@@ -14,7 +14,7 @@ public sealed class PlayerItemDropChanceRepositoryTests
         var request = TestData.DefaultPlayerItemDropChanceRequest;
 
         // Act
-        var result = repository.GetPlayerItemDropChance(request);
+        var result = repository.GetBadLuckHistory(request);
 
         // Assert
         result.Should().NotBeNull();
@@ -22,7 +22,7 @@ public sealed class PlayerItemDropChanceRepositoryTests
 
     #region Helper Methods
 
-    private static IPlayerItemDropChanceRepository GetRepository()
+    private static ICharacterItemBadLuckRepository GetRepository()
     {
         return new PlayerItemDropChanceRepository();
     }

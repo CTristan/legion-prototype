@@ -4,5 +4,6 @@ namespace CityOfGuilds.Legion.Repository.Tests;
 
 public static class TestData
 {
-    public static PlayerItemDropChanceRequest DefaultPlayerItemDropChanceRequest => new() { PlayerId = 1, ItemId = 1 };
+    public static CharacterItemBadLuckHistoryRequest DefaultPlayerItemDropChanceRequest =>
+        new() { PlayerId = 1, ItemId = 1 };
 }

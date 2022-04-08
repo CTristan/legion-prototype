@@ -1,14 +1,14 @@
 namespace CityOfGuilds.Legion.Data.Entities;
 
 /// <summary>
-///     Represents the history for an item's chances of dropping for a particular player.
+///     Represents the bad luck history for an item not dropping for a character.
 /// </summary>
-public class PlayerItemDropChance
+public class CharacterItemBadLuck
 {
     /// <summary>
-    ///     Composite Primary Foreign Key for Player
+    ///     Composite Primary Foreign Key for Character
     /// </summary>
-    public int PlayerId { get; set; }
+    public int CharacterId { get; set; }
 
     /// <summary>
     ///     Composite Primary Foreign Key for Item
@@ -23,6 +23,6 @@ public class PlayerItemDropChance
 
 
     // Navigation Properties
-    public Player Player { get; set; }
+    public Character Character { get; set; }
     public Item Item { get; set; }
 }
