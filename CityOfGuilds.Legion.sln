@@ -9,13 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Item", "src\CityOfGuilds.Legion.Item\CityOfGuilds.Legion.Item.csproj", "{CD9570CA-56AE-4D54-8E95-CD5F39BB9897}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Repository", "src\CityOfGuilds.Legion.Repository\CityOfGuilds.Legion.Repository.csproj", "{32E76BD5-22AD-4EBE-98AD-87C94C4C80B6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9621245B-1AEF-46ED-A49C-08DA804C2272}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Item.Tests", "test\unit\CityOfGuilds.Legion.Item.Tests\CityOfGuilds.Legion.Item.Tests.csproj", "{D81D07C6-74CF-48AA-B704-CF09F5DA873F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Repository.Tests", "test\unit\CityOfGuilds.Legion.Repository.Tests\CityOfGuilds.Legion.Repository.Tests.csproj", "{D61B68E9-5A3B-46D4-B170-FE2FF51C03D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityOfGuilds.Legion.Core.Tests", "test\unit\CityOfGuilds.Legion.Core.Tests\CityOfGuilds.Legion.Core.Tests.csproj", "{D61B68E9-5A3B-46D4-B170-FE2FF51C03D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3246E1D3-7CA1-4A06-9B19-782A6C330FC2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +38,6 @@ Global
 		{CD9570CA-56AE-4D54-8E95-CD5F39BB9897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD9570CA-56AE-4D54-8E95-CD5F39BB9897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD9570CA-56AE-4D54-8E95-CD5F39BB9897}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32E76BD5-22AD-4EBE-98AD-87C94C4C80B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32E76BD5-22AD-4EBE-98AD-87C94C4C80B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32E76BD5-22AD-4EBE-98AD-87C94C4C80B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32E76BD5-22AD-4EBE-98AD-87C94C4C80B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D81D07C6-74CF-48AA-B704-CF09F5DA873F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D81D07C6-74CF-48AA-B704-CF09F5DA873F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D81D07C6-74CF-48AA-B704-CF09F5DA873F}.Release|Any CPU.ActiveCfg = Release|Any CPU

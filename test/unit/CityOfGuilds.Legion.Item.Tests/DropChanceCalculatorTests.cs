@@ -21,12 +21,8 @@ public sealed class ItemDropChanceCalculatorTests
         result.Item.Should().NotBeNull();
     }
 
-    #region Helper Methods
-
     private static IItemDropChanceCalculator GetCalculator()
     {
         return new ItemDropChanceCalculator();
     }
-
-    #endregion
 }

@@ -1,3 +1,4 @@
+using CityOfGuilds.Legion.Core.BadLuckProtection.Interfaces;
 using CityOfGuilds.Legion.Item.Interfaces;
 using FluentAssertions;
 using NSubstitute;
@@ -22,8 +23,6 @@ public sealed class ItemGeneratorTests
         result.Item.Should().NotBeNull();
     }
 
-    #region Helper Methods
-
     private static IItemGenerator GetGenerator()
     {
         var itemDropChanceCalculator = Substitute.For<IItemDropChanceCalculator>();
@@ -31,6 +30,4 @@ public sealed class ItemGeneratorTests
 
         return new ItemGenerator(itemDropChanceCalculator, badLuckProtectionUpdater);
     }
-
-    #endregion
 }

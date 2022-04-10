@@ -1,5 +1,5 @@
-using CityOfGuilds.Legion.Core.Requests;
-using CityOfGuilds.Legion.Core.Responses;
+using CityOfGuilds.Legion.Item.Requests;
+using CityOfGuilds.Legion.Item.Responses;
 
 namespace CityOfGuilds.Legion.Item.Interfaces;
 
