@@ -1,4 +1,5 @@
-using CityOfGuilds.Legion.Core.BadLuckProtection.Interfaces;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Interfaces;
+using CityOfGuilds.Legion.Core.Library.Loot.Interfaces;
 using CityOfGuilds.Legion.Item.Interfaces;
 using FluentAssertions;
 using NSubstitute;

@@ -1,5 +1,5 @@
-using CityOfGuilds.Legion.Core.BadLuckProtection.Interfaces;
-using CityOfGuilds.Legion.Core.BadLuckProtection.Updaters;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Interfaces;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Updaters;
 using FluentAssertions;
 using Xunit;
 

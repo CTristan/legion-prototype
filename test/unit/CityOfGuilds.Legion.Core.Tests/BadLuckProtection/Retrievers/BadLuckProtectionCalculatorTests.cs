@@ -1,5 +1,5 @@
-using CityOfGuilds.Legion.Core.BadLuckProtection.Interfaces;
-using CityOfGuilds.Legion.Core.BadLuckProtection.Retrievers;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Interfaces;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Retrievers;
 using FluentAssertions;
 using Xunit;
 
@@ -12,7 +12,7 @@ public sealed class BadLuckHistoryRetrieverTests
     {
         // Arrange
         var retriever = GetRetriever();
-        var request = TestData.DefaultBadLuckProtectionRequest;
+        var request = TestData.DefaultBadLuckHistoryRequest;
 
         // Act
         var result = retriever.GetBadLuckHistory(request);

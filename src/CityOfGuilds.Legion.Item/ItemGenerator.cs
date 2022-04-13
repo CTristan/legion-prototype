@@ -1,8 +1,9 @@
-using CityOfGuilds.Legion.Core.BadLuckProtection.Interfaces;
-using CityOfGuilds.Legion.Core.BadLuckProtection.Requests;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Interfaces;
+using CityOfGuilds.Legion.Core.Library.BadLuckProtection.Requests;
+using CityOfGuilds.Legion.Core.Library.Loot.Interfaces;
+using CityOfGuilds.Legion.Core.Library.Loot.Requests;
+using CityOfGuilds.Legion.Core.Library.Loot.Responses;
 using CityOfGuilds.Legion.Item.Interfaces;
-using CityOfGuilds.Legion.Item.Requests;
-using CityOfGuilds.Legion.Item.Responses;
 
 namespace CityOfGuilds.Legion.Item;
 

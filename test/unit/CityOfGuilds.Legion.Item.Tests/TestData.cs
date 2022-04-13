@@ -1,5 +1,5 @@
 using CityOfGuilds.Legion.Core.Enum;
-using CityOfGuilds.Legion.Item.Requests;
+using CityOfGuilds.Legion.Core.Library.Loot.Requests;
 
 namespace CityOfGuilds.Legion.Item.Tests;
 
