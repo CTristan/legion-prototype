@@ -12,9 +12,5 @@
         </AssemblyAttribute>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Library\RandomNumberGenerator\Interfaces" />
-    </ItemGroup>
-
 
 </Project>
